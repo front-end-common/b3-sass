@@ -23,7 +23,7 @@ line_comments         = false
  
 # The output style for the compiled css.  One of: `:nested`, `:expanded`,
 # `:compact`, or`:compressed`.
-output_style          = :compressed
+output_style          = :expanded
 
 #Enable dehasher to remove generated sprite unique hash. Generates an image without the hash and uses it as the source sprite in the css
 dehash_sprite 				  = true
