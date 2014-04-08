@@ -1,0 +1,12 @@
+@import 'compass';
+
+.box {
+	background: #ccc;
+	color: #f00;
+}
+.bag {
+	background: #f00;
+	font: 13px/20px Arial, Helvetica, sans-serif;
+	padding: 20px;  
+	@include background-image(linear-gradient(right, #ff8989, #ccc));
+}  
